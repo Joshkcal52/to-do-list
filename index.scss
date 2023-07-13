@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  .header {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    font-size: 42px;
+  }
+  .sub-heading {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 600px;
+    p {
+      margin: 0;
+      width: 100vw;
+      height: 5vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: solid blue;
+    }
+    button {
+      display: flex;
+      align-items: center;
+      border: none;
+      background: transparent;
+      margin-bottom: -3px;
+    }
+    .pending-tasks {
+      margin: 0;
+      padding: 0;
+      border: solid blue;
+      width: 33vw;
+      display: flex;
+      justify-content: center;
+      .addBox1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid black;
+      }
+    }
+    .in-progress-tasks {
+      border: solid green;
+      width: 33vw;
+      display: flex;
+      justify-content: center;
+    }
+    .completed-tasks {
+      border: solid red;
+      width: 33vw;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

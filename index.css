@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+body .header {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 42px;
+}
+body .sub-heading {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  height: 600px;
+}
+body .sub-heading p {
+  margin: 0;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid blue;
+}
+body .sub-heading button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: transparent;
+  margin-bottom: -3px;
+}
+body .sub-heading .pending-tasks {
+  margin: 0;
+  padding: 0;
+  border: solid blue;
+  width: 33vw;
+  display: flex;
+  justify-content: center;
+}
+body .sub-heading .pending-tasks .addBox1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black;
+}
+body .sub-heading .in-progress-tasks {
+  border: solid green;
+  width: 33vw;
+  display: flex;
+  justify-content: center;
+}
+body .sub-heading .completed-tasks {
+  border: solid red;
+  width: 33vw;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=index.css.map */
